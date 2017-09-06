@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  myarray.swift
 //  MySwift04
 //
 //  Created by Nina on 2017/9/6.
@@ -7,7 +7,9 @@
 //
 
 import Foundation
-
-print("Hello, World!")
-myint()
-myary()
+func myary(){
+    let a1 = [1,2,3]
+    print(type(of:a1))
+    let a2:[Any] = [1,2,"Nina"]
+    print(type(of:a2))
+}
